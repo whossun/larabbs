@@ -78,7 +78,7 @@ return [
     |
     */
 
-    'locale' => 'zh-cn',
+    'locale' => 'zh-CN',
 
     /*
     |--------------------------------------------------------------------------
@@ -167,6 +167,8 @@ return [
         /*
          * Package Service Providers...
          */
+
+        Overtrue\LaravelLang\TranslationServiceProvider::class,
 
         /*
          * Application Service Providers...
